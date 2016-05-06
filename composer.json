@@ -8,9 +8,9 @@
     },
     "require": {
         "php": ">=5.4.0",
-        "symfony/http-kernel": "~2.8",
-        "symfony/options-resolver": "~2.8",
-        "symfony/event-dispatcher": "~2.8",
+        "symfony/http-kernel": "~3.0",
+        "symfony/options-resolver": "~3.0",
+        "symfony/event-dispatcher": "~3.0",
         "symfony/class-loader": "~2.8",
         "symfony/yaml": "~2.8",
         "twig/twig": "1.*",
@@ -19,10 +19,10 @@
         "coduo/tutu-twig-extension": "1.0.*@dev"
     },
     "require-dev": {
-        "behat/behat": "3.0.*",
+        "behat/behat": "3.1.*",
         "behat/mink-extension": "~2.0@dev",
         "behat/mink-goutte-driver": "~1.0@dev",
-        "phpspec/phpspec": "2.0.*",
+        "phpspec/phpspec": "~2.5",
         "symfony/filesystem": "~2.3",
         "symfony/process": "~2.3",
         "bossa/phpspec2-expect": "dev-master"
